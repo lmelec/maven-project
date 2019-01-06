@@ -215,9 +215,5 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
-
-  <prerequisites>
-    <maven>3.5</maven>
-  </prerequisites>
-
+ 
 </project>
