@@ -3,5 +3,7 @@ container=""
 container=$(docker ps -aq)
 if [ "$container" != "" ];
 then
-    docker rm -fv $(docker ps -aq)
+    docker rm -fv testversion
+    docker rm -fv performanceversion
+    docker rm -fv securityversion 
 fi
